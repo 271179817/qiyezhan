@@ -1,0 +1,421 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+header{
+	width: 100%;
+	height: 102px;
+	background: red;
+	position: relative;
+}
+header main img{
+	display: block;
+	float: left;
+	width: 119px;
+	height: 22px;
+	margin-top: 40px;
+
+}
+header img{
+	width: 100%;
+	height: 435px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+main{
+	width: 1140px;
+	height: 67px;
+	line-height: 102px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 104.5px;
+	/* background-color: white; */
+
+}
+main ul{
+	height: 100%;
+	display: block;
+	float: right;
+	
+
+}
+main ul li{
+	color: white;
+	font-size: 0.875em;
+	padding-right: 20px;
+	float: right;
+
+}
+.number{
+	width: 469px;
+	height: 126px;
+	margin: 0 auto;	
+}
+.number h2{
+	font-weight: 300;
+	font-size: 39px;
+	color:white;
+
+}
+.header_{
+	width: 100%;
+	height: 435px;
+	/* background: #EF6A2F; */
+	text-align: center;
+	/* background: url('../img/1.jpg') center; */
+}
+.number1{
+	width: 164px;
+	height: 31px;
+	background: black;
+	margin: 0 auto;
+	padding: 13px 22px;
+	border-radius: 5px;
+}
+.number2{
+	width: 164px;
+	height: 31px;
+	background: green;
+	margin: 0 auto;
+	padding: 13px 22px;
+	border-radius: 5px;
+	color: white;
+
+}
+.number1 h4{
+	font-size: 17px;
+	color: white;
+	font-weight: 600;
+}
+.section{
+	width: 100%;
+	height: 184px;
+	background: #F2F4F6;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+.section h3{
+	margin: 10px auto;
+	font-size: 30px;
+	padding-top: 40px;
+	text-align: center;
+	font-weight: 400;
+}
+.section_item a{
+	display: block;
+	width: 176px;
+	height: 42px;
+	font-size:5px; 
+	font-weight: 600;
+	margin: 0 auto;
+}
+.http{
+	width: 100%;
+	height: 757px;
+	background: white;
+}
+.http img{
+	display: block;
+	width: 100%;
+	height: 757px;
+	background-size: 100% 100%;
+}
+.http_item{
+	width: 100px;
+	height: 530px;
+	background: white;
+	display: flex;
+}
+.http_item img{
+	display: block;
+	width:370px;
+	height: 450px;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 100px;
+
+}
+
+.footer{
+	width: 1140px;
+	height: 128px;
+	background: white;
+	padding: 60px 0 50px 0;
+	background: #FFFFFF;
+	margin: 0 auto;
+	display: flex;
+
+}
+.footer h4{
+	font-size: 14px;
+	margin: 10px auto;
+	line-height: 28px;
+	color: #505458;
+	
+}
+.foot span{
+	display: block;
+	font-size: 36px;
+	font-weight: 300;
+	color: #505458;
+}
+.shifan{
+	width: 265px;
+	height: 128px;
+	padding-left: 15px;	
+	background-color: white;
+	float: left;
+}
+.shifan h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.xian{
+	width: 175px;
+	height: 4px;
+	background-color:#B8B8B8;
+}
+.xian2{
+	width: 139px;
+	height: 100%;
+	background-color: #22262E;
+}
+.tp1{
+	width: 370px;
+	height: 450px;
+	background-color: white;
+	position: relative;
+	margin-right: 100px;
+}
+.dingwei{
+	width:370px;
+	height: 450px;
+	background-color: black;
+	position: absolute;
+	opacity: 0;
+	z-index: 5;
+}
+.dingwei:hover{
+	opacity: 0.3;
+}
+.tp1 img{
+	display: block;
+}
+.grey{
+	width: 100%;
+	height: 456px;
+	background: #F2F4F6;
+	overflow: hidden;
+	position: relative;
+}
+.grey1{
+	width: 1140px;
+	height: 275px;
+	background: #F2F4F6;
+	margin: 0 auto;
+	margin-top: 60px;
+
+}
+.grey2{
+	width: 540px;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #F2F4F6;
+	margin: 0 auto;
+}
+.grey2 img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+.words{
+	width: 540px;
+	height: 19px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-style: normal;
+	text-align: center;
+}
+.grey2 h3{
+	font-size: 8px;
+	line-height: 34px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 600;
+
+}
+.radius{
+	width: 1140px;
+	height: 27px;
+	background: #F2F4F6;
+	position: absolute;
+	left: 100px;
+	top: 300px;
+}
+.radius_item{
+	width: 64px;
+	height: 12px;
+	margin: 0 auto;
+	background: #F2F4F6;
+	display: flex;
+	justify-content: space-between;
+
+}
+.yuan{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background: #869791;
+	
+}
+.yuan1{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background: #BCC6C3;
+}
+.yuan2{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background: #BCC5C3;
+}
+.footer_icon{
+	width: 1356px;
+	height: 188px;
+	background: #22262E;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.together{
+	width: 1170px;
+	height: 188px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: #22262E;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picture{
+	width: 263px;
+	height: 108px;
+	background: #22262E;
+	margin-top: 40px;
+	float: left;
+	padding-left: 15px;
+}
+.picture i{
+	font-size: 49px;
+	text-align: center;
+	color: #2EC574;
+	display: block;
+
+}
+.content{
+	width: 263px;
+	height: 60px;
+	background: #22262E;
+
+}
+.content p{
+	text-align: center;
+	font-size: 13px;
+	color: #666;
+}
+.content h3{
+	text-align: center;
+	font-weight: 800;
+	color: #FFFFFF;
+}
+.last_footer{
+	width: 1366px;
+	height: 174px;
+	background: white;
+
+	
+}
+.last_footer_item{
+	margin: 0 auto;
+	width: 1140px;
+	height: 94px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.md1{
+	width: 165px;
+	height: 94px;
+	padding-right: 15px;
+	font-size: 12px;
+	color: #7F8287;
+}
+.md1 img{
+	width: 119px;
+	height: 22px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+}
+.md2{
+	width: 102px;
+	height: 51px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+
+}
+.md3{
+	width: 102px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+
+}
+.md4{
+	width: 165px;
+	height: 54px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+}
+.md5{
+	width: 165px;
+	height: 59px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+}
+.md1 img{
+	/* background:#43464D; */
+	display: block;
+	/* background-size: 100% 100%; */
+}

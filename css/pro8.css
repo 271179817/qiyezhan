@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 67px;
+	background: white;
+
+}
+header main img{
+	display: block;
+	float: left;
+	width: 119px;
+	height: 22px;
+	cursor: pointer;
+
+	/* margin-top: 20px; */
+}
+main{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 27px;
+	/* line-height: 102px; */
+	overflow: hidden;
+	/* cursor: pointer; */
+}
+main ul{
+	height: 703px;
+	display: block;
+	float: right;
+	
+
+}
+main ul li{
+	color: #A17777;
+	font-size: 0.875em;
+	padding-right: 20px;
+	float: right;
+	cursor: pointer;
+
+}
+.number{
+	width: 100%;
+	height: 103px;
+	background: #F2F4F6; 
+	padding-top: 20px;
+}
+	
+.section{
+	width: 1170px;
+	height: 100%;
+	margin-left: 69px;
+
+	margin: 0 auto;
+
+}
+.section_item h2{
+	font-size: 30px;
+	line-height: 62px;
+	color: #915458;
+	font-weight: 300;
+	/* margin: 10px 0; */
+	/* margin-top: 40px; */
+
+
+}
+.section_item{
+	width: 585px;
+	height: 62px;
+	padding:0 15px;
+	/* overflow: hidden; */
+	float: left;
+
+
+}
+.section_item_right{
+	width: 585px;
+	height: 50px;
+	padding: 20px 15px 0;
+	float: right;
+}
+.section_item_right ul{
+	height: 20px;
+	margin-bottom: 10px;
+}
+.section_item_right li{
+	float: right;
+	padding-bottom:10px;
+	line-height: 20px;
+	font-size: 13px;
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+.picture{
+	width: 1140px;
+	height: 351.5px;
+	padding: 0 15px;
+	margin: 0 98px;
+	margin-top: 51px;
+}
+.picture_item{
+	width: 1152px;
+	height: 351.5px;
+	margin-left: 12px;
+	padding-bottom: 60px;
+}
+.picture_item li{
+	width: 372px;
+	height: 340px;
+	margin-left: 12px;
+	float: left;
+}
+.picture_item li img{
+	width: 372px;
+	height: 271px;
+}
+.font{
+	width: 372px;
+	height: 69px;
+}
+.picture_item li .font h4{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 28px;
+	padding-top: 10px;
+	color: rgb(80, 84, 88);
+}
+.picture_item li .font p{
+	height: 21px;
+    font-size: 13px;
+    color: rgb(111, 123, 138);
+    margin-bottom: 10px;
+}
+.numbers{
+	width:100%;
+	height: 100px;
+	background: #F2F4F6; 
+}
+.last_item{
+	width: 100%;
+	height: 268px;
+	background: red;
+	padding: 40px 0;
+	margin-top: -10px;
+	background: #22262E;
+
+}
+.last_item_middle{
+	width: 1170px;
+	height: 188px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.text_first{
+	width: 100%;
+	height: 188px;
+	overflow:hidden;
+}
+.text_first_num1{
+	width: 285px;
+	height: 188px;
+	float: left;
+	text-align: center;
+	padding-top: 40px;
+	
+}
+.text_first_num1 i{
+	font-size: 49px;
+	color: #2EC566;
+}
+.text_first_num1 p{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+	color: rgb(102, 102, 102);
+	margin-bottom: 10px;
+	color: #2EC566;
+}
+.text_first_num1 h3{
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 800;
+	margin-bottom: 10px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last_footer{
+	width: 1366px;
+	height: 174px;
+	background: white;
+
+	
+}
+.last_footer_item{
+	margin: 0 auto;
+	width: 1140px;
+	height: 94px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.md1{
+	width: 165px;
+	height: 94px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+.md1 img{
+	width: 119px;
+	height: 22px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+}
+.md2{
+	width: 102px;
+	height: 51px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+
+}
+.md3{
+	width: 102px;
+	height: 36px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+
+}
+.md4{
+	width: 165px;
+	height: 54px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+}
+.md5{
+	width: 165px;
+	height: 59px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	color: #5390AF;
+}
+.md1 img{
+	/* background:#43464D; */
+	display: block;
+	/* background-size: 100% 100%; */
+}
